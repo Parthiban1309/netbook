@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+main{
+   padding-top: 20px;
+   padding-bottom: 90px;
+   background: url(bg/base.svg) center no-repeat;
+   background-size: cover;
+   width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.header-wrapper div nav>a{
+    color: rgba(101, 100, 100, 1);
+    font-size: 14px;
+    font-weight: 500
+}
+.header-wrapper div nav>a:nth-child(1){
+    color: rgba(43, 43, 57, 1);
+    font-weight: 600;
+}
+.header-wrapper>a{
+    padding: 5px 20px;
+}
+.text-reader{
+    display: block;
+}
+h2{
+    font-size: 56px;
+    font-weight: 700;
+    color: rgba(10, 9, 61, 1);
+}
+.banner-wrapper div div p{
+    padding: 30px 0px 50px 0px;
+}
+p{
+    font-size: 16px;
+    color: rgba(101, 100, 100, 1);
+}
+.banner-wrapper div div a{
+    font-size: 14px;
+    padding: 10px 20px;
+}
+h4{
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(33, 60, 244, 1);
+}
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(23, 22, 72, 1);
+}
+ul{
+    padding-left: 0px;
+}
+
+li img{
+    width: 5%;
+}
+h1 h2 h3 h4 h5{
+    margin: 0px;
+}
+section:nth-child(3) .card{
+    width: 336px;
+    height: 340px;
+    box-shadow: rgba(222, 222, 222, 1) 5px 5px 5px 5px;
+    border-color: none;
+}
+.h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+section:nth-child(3) .card div:nth-child(2){
+    padding: 30px 0px;
+}
+section:nth-child(3) .card:nth-child(1) div h4 span:nth-child(2){
+    color: black;
+}
+section:nth-child(3) .card:nth-child(1) div h4 span:nth-child(1){
+    color: rgba(33, 123, 244, 1);
+}
+section:nth-child(3) .card div h4 span:nth-child(1){
+    color: black;
+}
+section:nth-child(3) .card div h4 span:nth-child(3){
+    color: black;
+}
+section:nth-child(3) .card:nth-child(3) h3{
+    color: rgba(33, 123, 244, 1);
+}
+section:nth-child(3) .card:nth-child(2) a {
+    color: black;
+}
+section:nth-child(3) .card:nth-child(3) a {
+    color: black;
+}
+section:nth-child(3) .card a{
+    font-size: 16px;
+    font-weight: 500;
+}
+.banner-header h3{
+    color: rgba(33, 123, 244, 1);
+}
+.s4-wrapper>div>div{
+    box-shadow: #7F7F7F2b 14px 22px 52px -12px;
+    border-radius: 14px;
+    padding: 20px;
+    background-color: white;
+}
+.s-4{
+    background: url(./bg/bases4.svg) no-repeat center;
+    background-size: cover;
+    background-blend-mode: screen;
+}
+.members-wrapper>div>div{
+   border-radius: 16px;
+   box-shadow: #00000029 0px 4px 4px 0px;
+   width: 21%;
+}
+.members-wrapper>div{
+    gap: 50px;
+}
+.members-wrapper>div>div>img{
+    transition: all .4s ;
+}
+.members-wrapper>div>div>img:hover{
+    margin-bottom: 40px;
+}
+.s-6{
+    background-color: rgba(173, 211, 255, 0.39);
+    width: 100%;
+    height: 560px;
+}
+.s-6>div>div>img{
+    width: 34%;
+    margin-top: 8px;
+}
+footer{
+    background: url(./bg/basef.svg) center;
+    background-size: cover;
+    height: 485px;
+}
+footer h3{
+    color: #ffff;
+    font-weight: 500;
+}
+footer p{
+    color: rgba(231, 231, 231, .68);
+}
+footer>div:nth-child(2){
+    background-color: rgba(32, 32, 45, 1);
+    height: 96px;
+}
+footer>div:nth-child(2)>div{
+    margin-top: 2%;
+}
+@media only screen and (max-width: 768px) {
+    .text-reader{
+        display: inline;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    ul{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    body>section:nth-child(1) div div div div>h2    {
+        font-size: 0px;
+    }
+}
